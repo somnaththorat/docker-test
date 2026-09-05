@@ -1,7 +1,7 @@
 services:
 
   app:
-    image: thoratsomnath/docker-test:v2
+    image: thoratsomnath/docker-test:v3
     container_name: docker-test-app
     ports:
       - "3000:3000"
